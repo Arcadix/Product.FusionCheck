@@ -1,5 +1,5 @@
 import React from 'react'
-import AppMain_MetaData from "@shared/AppMain_MetaData";
+//import AppMain_MetaData from "@shared/AppMain_MetaData";
 
 export default function AppMain() {
     return (
