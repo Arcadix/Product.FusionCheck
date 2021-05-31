@@ -21,7 +21,7 @@ const App = () => {
 let AppComponent = App;
 
 loadableReady(() => {
-  const RenderMethod = !!module.hot ? ReactDOM.render : ReactDOM.hydrate;
+  const RenderMethod = ReactDOM.render;
   RenderMethod(
     <AppComponent />,
     document.getElementById("divRootClient"),
