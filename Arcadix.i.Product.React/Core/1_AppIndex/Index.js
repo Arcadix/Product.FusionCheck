@@ -2,6 +2,9 @@
 import React, { useEffect } from "react";
 import ReactDOM, { hydrate, render } from "react-dom";
 
+//Loadable import
+import { loadableReady } from '@loadable/component';
+
 import AppMain from "@root/AppMain"
 /**
  * @name App
