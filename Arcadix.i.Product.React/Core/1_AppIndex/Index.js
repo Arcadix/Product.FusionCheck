@@ -2,6 +2,9 @@
 import React, { useEffect } from "react";
 import ReactDOM, { hydrate, render } from "react-dom";
 
+//Polyfill imports
+import "isomorphic-fetch";
+
 //Loadable import
 import { loadableReady } from '@loadable/component';
 
