@@ -1,1 +1,3 @@
-export default AppMain_MetaData = () => "AppMain_MetaData";
+export default function AppMain_MetaData (){
+    return "AppMain_MetaData";
+} 
