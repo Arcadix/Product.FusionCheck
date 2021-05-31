@@ -21,13 +21,20 @@ const App = () => {
 };
 
 //To Hydrate the App to DOM
-let AppComponent = App;
+// let AppComponent = App;
 
-loadableReady(() => {
-  const RenderMethod = ReactDOM.render;
-  RenderMethod(
-    <AppComponent />,
-    document.getElementById("divRootClient"),
-    function () {}
-  );
-});
+// loadableReady(() => {
+//   const RenderMethod = ReactDOM.render;
+//   RenderMethod(
+//     <AppComponent />,
+//     document.getElementById("divRootClient"),
+//     function () {}
+//   );
+// });
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('divRootClient')
+);
