@@ -91,7 +91,6 @@
     "source-map-loader": "0.1.6",
     "url-loader": "^2.1.0",
     "vmsg": "^0.3.6",
-    "webdav.client": "^5.16.5450",
     "webpack": "^4.43.0",
     "webpack-bundle-analyzer": "^4.4.0",
     "webpack-cleanup-plugin": "^0.5.1",
